@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: darkgrey;
+}
+h2{
+    color: darkorchid;
+    text-align: center;
+}
+.maincalc{
+    background-color: #ccc;
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    height: 350px;
+    padding: 10px 10px;
+}
+input[type="text"]{
+    padding: 10px;
+    width: 270px;
+    border: none;
+    margin-top: 6%;
+    box-sizing: border-box;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+.note{
+    width: 400px;
+    margin-left: 40%;
+}
+p{
+    font-size: 18px;
+     margin-top: 3px; 
+}
+strong{
+    font-size: 20px;
+ }
+ .row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+ }
+ .row1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+ }
+ .row2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+ }
+ .row3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+ }
+button{
+    width: 50px;
+    height: 40px;
+}
+button:focus{
+    outline: none;
+}
+@media screen and (max-width: 800px) {
+    *{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        font-family: 'poppins',sans-serif;
+    }
+    body{
+        background-color: darkgrey;
+    }
+    h2{
+        color: darkorchid;
+        text-align: center;
+    }
+
+    .maincalc{
+        background-color: #ccc;
+        width: 300px;
+        height: 350px;
+        margin: 20vh auto 0 auto;
+        padding: 10px 10px;
+    }
+    input[type="text"]{
+        padding: 10px;
+        width: 270px;
+        border: none;
+        margin-top: 6%;
+        box-sizing: border-box;
+    }
+    input[type="text"]:focus{
+        outline: none;
+    }
+     .row{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+     }
+     .row1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+     }
+     .row2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+     }
+     
+     .row3{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+     }
+    button{
+        width: 50px;
+        height: 40px;
+    }
+    button:focus{
+        outline: none;
+    }
+}
+@media screen and (max-width: 400px) {
+    *{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        font-family: 'poppins',sans-serif;
+    }
+    body{
+        background-color: darkgrey;
+    }
+    h2{
+        color: darkorchid;
+        text-align: center;
+    }
+    .maincalc{
+        background-color: #ccc;
+        width: 300px;
+        margin: 35vh auto 0 auto;
+        height: 350px;
+        padding: 10px 10px;
+    }
+    input[type="text"]{
+        padding: 10px;
+        width: 270px;
+        border: none;
+        margin-top: 6%;
+        box-sizing: border-box;
+    }
+    input[type="text"]:focus{
+        outline: none;
+    }
+     .row{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+     }
+     .row1{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+     }
+     .row2{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+     }
+     .row3{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 5%;
+     }
+    button{
+        width: 50px;
+        height: 40px;
+    }
+    button:focus{
+        outline: none;
+    }
+}
